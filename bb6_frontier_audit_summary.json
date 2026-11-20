@@ -1,0 +1,22 @@
+{
+  "hardware_substrate": "AWS EC2 f2.6xlarge | Xilinx UltraScale+ (0000:34:00.0)",
+  "agfi_id": "agfi-037dec8eb7fe5504d",
+  "on_chip_state_footprint_bytes": 256,
+  "machines_evaluated": 608,
+  "step_ceiling_per_machine": 10000000000,
+  "total_exact_turing_steps": 6080000000000,
+  "aggregate_wall_seconds": 2018.881,
+  "aggregate_msteps_per_sec": 3011.57,
+  "halted_z_count": 0,
+  "reached_undefined_tnf_count": 0,
+  "proven_translated_cycler_count": 0,
+  "proven_blank_recurrence_count": 0,
+  "frontier_survived_count": 608,
+  "naive_crosscheck_errors": 0,
+  "total_pcie_bar0_commits": 244416,
+  "pcie_bar0_commit_p50_ns": 1430.0,
+  "pcie_bar0_commit_p99_ns": 2260.0,
+  "pcie_bar0_commit_p999_ns": 15060.0,
+  "inverse_t_minus_1_lsb_drift_bits": 0,
+  "hardware_determinism_and_unwind_verified": true
+}

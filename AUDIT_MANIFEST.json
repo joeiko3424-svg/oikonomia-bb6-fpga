@@ -1,0 +1,12 @@
+﻿{
+    "substrate":  "AWS EC2 f2.6xlarge | Xilinx UltraScale+ (0000:34:00.0) | agfi-037dec8eb7fe5504d",
+    "sha256":  {
+                   "bb6_fpga_frontier.cpp":  "2132613b73fedc38413555e9fdc975d802629c1deef90f06aaf81148f182be2a",
+                   "bb6_frontier_audit_summary.json":  "edfea2ae3f22725c3713fb3d1642eb6f06c7575f72e1c3d02e7f9632a00d19da",
+                   "bb6_frontier_audited_results.csv":  "a84b40ace27abb00d515f526ffe5e62c0539d1bba33b36ba95ed79d2a6073fc0",
+                   "bb6_holdouts_corpus.tsv":  "53dffb41b8c274a613647ce159d96ae74d07ba89b3272d15b0a71c109bd292e5",
+                   "bb6_run.log":  "0e605702d27c1d1500a2ca65a95f2eaeb61e6d6a3bffb77440daeb1fa2090c4a",
+                   "fetch_bb6_holdouts.py":  "e564810d7067d312584a937688f923f2505e152912cba2173400c0252ab144d3",
+                   "hardware_telemetry.log":  "4dec20b55fb03564d46ed2669cad31b9262ae47f5e104d709318732d6961065e"
+               }
+}
