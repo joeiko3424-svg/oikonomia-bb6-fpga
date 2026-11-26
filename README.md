@@ -24,3 +24,10 @@ To maintain strict reproducibility and eliminate any ambiguity between host simu
 - `bb6_frontier_audit_summary.json` & `bb6_run.log`: Machine-readable and raw console audit summaries.
 - `hardware_telemetry.log`: Raw `lspci` and `fpga-describe-local-image -S 0 -R -M` PCIe/voltage/power telemetry.
 - `AUDIT_MANIFEST.json`: Cryptographic `SHA-256` digests for every tracked artifact in this repository.
+
+## Zero-Integration 72-Hour Formal Verification & State-Checkpointing Sprint
+Formal verification, EDA/semiconductor validation, and long-horizon autonomous systems teams do not need to provision AWS F2 instances, configure PCIe BAR0 drivers, or share a 12-digit AWS Account ID. Oikonomia runs custom bounded-memory state checkpointing and bit-exact $T^{-1}$ inverse unwinding audits inside our air-gapped enclave:
+
+1. **Submit Transition Machines or Execution Traces:** Email a JSON/TSV corpus of state-machine transition tables or up to 250,000 sequential execution-digest checkpoints to `contact@oikonomia-platform.com`.
+2. **Private Vault Execution:** Direct userspace C++20 PCIe BAR0 MMIO state folding (`bb6_fpga_frontier.cpp`) executes inside Oikonomia's single-tenant, zero-egress AWS F2 enclave (`2–3 W` steady-state / `9–10 W` active $V_{CCINT}$).
+3. **Cryptographically Signed Audit Dossier:** Receive the complete `SHA-256` signed hardware checkpoint log, `0.25 KB` constant memory proof, and 0-bit drift $T^{-1}$ trajectory unwinding attestation within 72 hours (`$7,500–$12,000` flat sprint via AWS Marketplace Private Offer or invoice).
